@@ -32,4 +32,4 @@ E caso opte por essa opção, a aplicação ficará disponível em [http://local
 **NGINX**: Já a utilização do Nginx, foi atuar como proxy reverso, abordagem que é comum em aplicações dinâmicas, onde o mesmo funciona como intermediário entre o cliente (navegador) e o backend. Embora funcional, ainda se faz importante a utilização de servidores WSGI (Web Server Gateway Interface) em ambientes de produção, como o Gunicorn, garantindo melhor performance, escalabilidade e segurança.<br>
 **Docker**: A conteinerização tanto do Flask, quanto do Nginx proporciona um ambiente isolado e consistente. Garantindo que o deploy seja automatizado e previsível em qualquer ambiente.<br>
 
-Essa decisões foram tomadas para criar uma solução prática e funcional, de acordo com os requisitos do desafio, mas com espaço para evoluir em um cenário de produção real.
+Essas decisões foram tomadas para criar uma solução prática e funcional, de acordo com os requisitos do desafio, mas com espaço para evoluir em um cenário de produção real.
