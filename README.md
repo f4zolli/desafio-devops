@@ -25,6 +25,7 @@ A aplicação por padrão utiliza um servidor web (nginx), caso opte por não ut
    ```bash
    git clone --branch without_nginx https://github.com/f4zolli/desafio-devops.git
    ```
+E caso opte por essa opção, a aplicação ficará disponível em [http://localhost:8080](http://localhost:8080)
 
 ## Tecnologias
 **FLASK**: O framework Flask foi utilizado devido à sua simplicidade, flexibilidade e facilidade de configuração, visto que o objetivo era uma aplicação web simples.<br>
